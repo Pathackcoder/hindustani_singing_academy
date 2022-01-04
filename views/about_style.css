@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+
+
+}
+.navigation{
+    display:flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+
+}
+li{
+    list-style: none;
+    margin:2px 23px;
+    padding:10px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body::before{
+
+    content:"";
+    position:absolute;
+    height:100%;
+    width:100%;
+    background: url("https://c0.wallpaperflare.com/preview/443/212/45/studio-micro-microphone-singing.jpg") no-repeat center center/cover ; 
+    z-index: -1;
+    opacity: 0.7;
+} 
+
+.container{
+    color:rgb(227, 255, 216);
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    left:320px;
+    top:90px;
+    margin:auto;
+    width:700px;
+    font-family: emoji;
+    
+}
+.container h1{
+
+    font-size: 48px;
+    font-weight: 600;
+    
+    
+}
+
+.container p{
+
+    font-size: 26px;
+    font-style: emoji;
+    line-height: 34px;
+    font-weight: 300;
+
+    
+}
+

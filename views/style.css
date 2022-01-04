@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.navigation{
+    display:flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+
+}
+li{
+    list-style: none;
+    margin:2px 23px;
+    padding:10px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body::before{
+    content: "";
+    background: url("https://wallpaperaccess.com/full/310182.jpg") no-repeat center center/cover;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;   
+}
+.container{
+ display: flex;
+ flex-direction: column;
+    
+    align-items: center;
+}
+
+h1{
+    position: relative;
+    left:440px;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    text-shadow: 4px 4px purple;
+    text-decoration: underline;
+   
+}
+p{
+    margin:auto;
+    width: 990px;
+    font-size: large;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(85, 5, 5);
+}
+.btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 35px 18px;
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+
+h2{
+    padding: 10px 10px;
+    margin: 20px 0px;
+    font-size: 45px;
+    font-family: cursive;
+    color:rgb(245, 225, 45);
+    text-shadow: 6px 6px rgb(138, 52, 138);
+    text-decoration: underline;
+
+    
+   
+}

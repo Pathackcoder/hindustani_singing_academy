@@ -1,0 +1,15 @@
+{
+  "name": "backend_coding",
+  "version": "1.0.0",
+  "description": "this is a singing website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pathak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}
